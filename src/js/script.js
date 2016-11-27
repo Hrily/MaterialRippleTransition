@@ -4,7 +4,7 @@ function goTo(id) {
 
 function expand_handler(event){
 	setTimeout(function(){
-		document.body.innerHTML += '<div class="container"><div class="expandable-container"><div class="expandable"></div></div></div>';
+		document.body.innerHTML += '<div class="mcontainer"><div class="expandable-container"><div class="expandable"></div></div></div>';
 		expandable_container = (document.getElementsByClassName('expandable-container'))[0];
 		expandable = (expandable_container.getElementsByClassName('expandable'))[0];
 		panel = (document.getElementsByClassName('back-panel'))[0];
