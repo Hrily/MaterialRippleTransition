@@ -1,0 +1,84 @@
+body {
+	vertical-align: middle;
+	margin: 0;
+	text-align: center;
+    background-color: #e9eaed;
+    padding-top: 140px;
+}
+
+.container {
+	position: static;
+    width: 90%;
+    max-width: 960px;
+    text-align: left;
+}
+
+.back-panel {
+	display: block;
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 10px;
+	background-color: #3f51b5;
+	-webkit-transition: height .4s ease-in-out;
+         -o-transition: height .4s ease-in-out;
+            transition: height .4s ease-in-out;
+    visibility: hidden;
+}
+
+.expandable-container {
+	display: inline-block;
+	border-radius: 1px;
+	width: 100%;
+	height: 600px;
+}
+
+.expandable {
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	-webkit-transition: transform .4s ease-in-out;
+         -o-transition: transform .4s ease-in-out;
+            transition: transform .4s ease-in-out;
+    background-color: #fff;
+}
+
+.grid {
+	display: inline-block;
+	text-align: left;
+	position: relative;
+	max-width: 960px;
+	top: 100px;
+	vertical-align: middle;
+	opacity: 0;
+	-webkit-transition: all .4s ease-in-out;
+         -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+}
+
+.grid-cell {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	margin: 3px;
+    background-color: #d1d1d1;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
+}
+
+.btn-label {
+	transform: translate(15px, -7px);
+	background-color: #323232;
+	padding: 8px;
+	vertical-align: middle;
+	color:  #fff;
+	border-radius: 2px;
+}
+
+@media only screen and (max-width : 640px) {
+
+}
