@@ -60,7 +60,7 @@ function close_expand(){
 
 function show(){
 	grid = (document.getElementsByClassName('grid'))[0];
-	grid.style.opacity = 1;
+	//grid.style.opacity = 1;
 }
 
 cells = document.getElementsByClassName('grid-cell');
